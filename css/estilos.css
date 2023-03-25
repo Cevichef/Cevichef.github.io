@@ -1,0 +1,252 @@
+
+
+img{
+    width: 250%;
+    height: 100px;  
+}
+
+/* -----------------------Textos--------------------- */
+
+a[name="inicio"]{
+    margin-left: 500%;
+    color: white;
+    font-size: 15px; 
+}
+a[name="quien"]{
+    margin-left: 470%;
+    color: white;
+    font-size: 15px; 
+}
+a[name="menu"]{
+    margin-left: 490%;
+    color: white;
+    font-size: 15px;
+}
+a[name="contacto"]{
+    margin-left: 470%;
+    color: white;
+    font-size: 15px;
+}
+
+
+/* ----------------- li-------------------- */
+
+li[name="reser"]{
+    width: 110px;
+}
+li[name="uno"]{
+    width: 110px;
+}
+li[name="dos"]{
+    width: 110px;
+}
+li[name="tres"]{
+    width: 110px;
+    z-index: 10;
+}
+li[name="cuatro"]{
+    width: 110px;
+    z-index: 20;
+    
+}
+
+
+/* trancision de imagenes */
+
+.position{
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider{
+    background-image: url(../imagenes/IMG_8818.jpg);
+    background-size: cover;
+    height: 1050px;
+    width: 100%;
+    border-radius: 10px;
+    animation: animate 60s infinite;
+    z-index: -1;
+}
+
+@keyframes animate{
+    20%{
+        background-image: url(../imagenes/camaron\ ajillo.jpg);
+        background-size: cover;
+        z-index: -1;
+    }
+    40%{
+        background-image: url(../imagenes/camaron\ apanado.jpg);
+        background-size: cover;
+        z-index: -1;
+    }
+    60%{
+        background-image: url(../imagenes/camaron\ plancha.jpg);
+        background-size: cover;
+        z-index: -1;
+    }
+    80%{
+        background-image: url(../imagenes/arroz\ multi.jpg);
+        background-size: cover;
+        z-index: -1;
+    }
+    100%{
+        background-image: url(../imagenes/IMG_8818.jpg);
+        background-size: cover;
+        z-index: -1;
+    }
+}
+
+/* instagram */
+.bi{
+    font-size: 30px;
+}
+/* cuerpo del proyecto */
+
+.cuerpo{
+    margin-top: 525px;
+    height: 150%;
+    background: rgba(255, 255, 255, 0);
+}
+
+.contenedor{
+    height: 120px;
+}
+
+.titulomen{
+    float: left;
+    margin-left: 35%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+
+/* pie de pagina */
+
+.indicaciones{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url(../imagenes/langosta.jpg);
+    height: 370px;
+    border-radius: 5px;
+    margin-top: 95%;
+}
+
+.horario{
+    width: 5%;
+    height: 15px;
+}
+
+
+div[name="panel1"]{
+    width: 35%;
+    height: 100%;
+    margin-left: 20px;
+    float: left;
+}
+div[name="panel2"]{
+    width: 25%;
+    height: 50%;
+    margin-left: 10px;
+    float: right;
+}
+div[name="panel3"]{
+    width: 17%;
+    height: 50%;
+    margin-left: 10px;
+    float: left;
+}
+div[name="panel4"]{
+    width: 17%;
+    height: 50%;
+    margin-left: 10px;
+    float: right;
+}
+
+.imagenn{
+    width: 80%;
+    height: 290px;
+}
+
+/* nombre sobre video o tren de imagenes*/
+
+.content{
+    text-align: center;
+    margin-top: 30px;
+    float: left;
+    margin-left: 190px;
+}
+
+.content h1{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+/* ----------boton de contacto en carruss----------- */
+
+.bot{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: white solid 3px;
+    background-color:#2cf00e;
+    margin-top: 60px;
+}
+
+.ordenn{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+/* ------------------------------------------------ */
+
+.doss{
+    height: 180px;
+}
+/* titulos de platos */
+
+.texto-platillos{
+
+    margin-bottom: 30px;
+}
+
+.panel-primary{
+    height: 990%;
+    overflow-y: scroll;
+}
+
+p[id="titulo2"]{
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+p[id="titulo3"]{
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+p[id="titulo4"]{
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.lii{
+    color: white;
+    font-size: 15px;
+}
+
+.audio{
+    width: 130px;
+}
